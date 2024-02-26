@@ -1,47 +1,68 @@
-<!DOCTYPE html>
+<?php
+  require('layout/header.php')
+?>
+<!-- <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css" type="text/css">
+    <link rel="stylesheet" href="./nosotros.css" type="text/css"> 
     <title>Mc Repuestos</title>
 </head>
 
 <body>
     <div class="main_container">
         <div class="header_container">
-            <nav class="navbar bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand nav_option" href="./index.html">Logo</a>
-                    <a class="navbar-brand nav_option">Catalogo</a>
-                    <a class="navbar-brand " href="./nosotros.html">Nosotros</a>
-                    <button class="btn btn-outline-success btn-colaborator" type="submit" ><a>Colaboradores</a></button>
+            <div class="header_container">
+                <nav class="navbar bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand nav_option" href="index.html">Logo</a>
+                        <a class="navbar-brand nav_option">Catalogo</a>
+                        <a class="navbar-brand " href="./nosotros.html">Nosotros</a>
+                        <button class="btn btn-outline-success btn-colaborator"
+                            type="submit"><a>Colaboradores</a></button>
 
-                </div>
-            </nav>  
-        </div>
+                    </div>
+                </nav>
+            </div>
+        </div> -->
+        <head>
+          <link rel="stylesheet" href="./nosotros.css" type="text/css"> 
+        </head>
         <div class="principal_container">
-            <div class="image_container">
+            <div class="contact_info">
+                <h1 class="title_contact ">Contactenos</h1>
+                <br>
+                <h4 class="info_contact">✆ (506)25733757</h4>
+                <h4 class="info_contact">✆ (506)25733758</h4>
+                <h4 class="info_contact">✉ mcrepuestosusados@gmail.com</h4>
+                <h2 class="title_contact">Nuestro horario</h2>
+                <h4 class="info_contact">De Lunes a Viernes de 7:30 - 5:30</h4>
+                <h4 class="info_contact">Sabado de 7:30 - 12:30</h4>
+                <h4 class="info_contact">Domingo Cerrado</h4>
+                <h2 class="title_contact">Ubicacion</h2>
+                <h4 class="info_contact">Nos encontramos en Tejar del Guarco, cartago, Costa Rica</h4>
+                <div class="social_links">
+                  <a href="https://www.facebook.com/mcrepuestos.usados.9/?locale=es_LA"><img class="social_link" src="./img/facebook.png" alt=""></a>
+                  <a href="https://www.instagram.com/mc_repuestos_/?hl=es"><img class="social_link" src="./img/instagram.png" alt=""></a>
+                </div>
+                </div>
+            <div class="about_info">
+                <h1>Sobre nosotros</h1>
+                <p>Somos importadores directos de repuestos usados de las marcas mas conocidas a nivel nacional.
+                   <br>
+                    Contamos con 18 años de experiencia en el mercado,
+                     lo que garantiza la fiabilidad y responsabilidad a nuestros clientes.
+                     
+                </p>
+                <iframe class="mc_location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.113995919371!2d-83.94622012583856!3d9.840792175755771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa11fe4b8cedcdd%3A0x3565e8860c56f5b4!2sMC%20Repuestos!5e0!3m2!1ses-419!2scr!4v1708577043025!5m2!1ses-419!2scr" width="60%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="mc_info">
-                <h1 class="titles"> MC Repuestos</h1>
-                <h4 class="text_info">Somos importadores directos de repuestos para una gran
-                    <br> variedad de marcas y modelos del mercado nacional
-                </h4>
-                <img src="./img/logo_mc.png" class="info_image">
-
-            </div>
-            <div class="mc_info">
-                <h1 class="titles"> La mejor garantia del mercado</h1>
-                <h4 class="text_info">Absolutamente todos nuestros productos tienen 1 mes de garantia a partir del dia
-                    de compra para mantener la tranquilidad y confianza de nuestros clientes </h4>
-                <img src="./img/logo_mc.png" class="info_image">
-            </div>
-
         </div>
-        <div class="footer_container">
+        <!-- <div class="footer_container">
             <footer class="bg-dark text-center text-lg-start text-white">
                 <div class="container p-4">
                   <div class="row mt-4">
@@ -70,7 +91,7 @@
                         <li>
                           <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Mitsubishi</a>
                         </li>
-                        <li>
+                         <li>
                           <a href="#!" class="text-white"><i class="fas fa-backspace fa-fw fa-sm me-2"></i>Isuzu</a>
                         </li>
                         <li>
@@ -95,7 +116,7 @@
                           <a href="#!" class="text-white">Hyundai</a>
                         </li>
                         <li>
-                          <a href="#!" class="text-white"><i ></i>Chevrolet</a>
+                          <a href="#!" class="text-white"><i class="fas fa-briefcase fa-fw fa-sm"></i>Chevrolet</a>
                         </li>
                       </ul>
                     </div>
@@ -123,7 +144,9 @@
                 </div>
               </footer>
         </div>
-    </div>
+    </div> -->
+
+    <?php require('layout/footer.php') ?>
 </body>
 
 </html>
