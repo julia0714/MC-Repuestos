@@ -1,131 +1,25 @@
-<?php require('./layout/header.php'); ?>
-<!-- <!DOCTYPE html>
-<html lang="en">
+<?php require './layout/header.php'; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="./index.css" type="text/css">
-    <title>Mc Repuestos</title>
-</head>
-
-<body>
-    <div class="main_container">
-        <div class="header_container">
-            <nav class="navbar bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand nav_option" href="./index.html">Logo</a>
-                    <a class="navbar-brand nav_option">Catalogo</a>
-                    <a class="navbar-brand " href="./nosotros.html">Nosotros</a>
-                    <button class="btn btn-outline-success btn-colaborator" type="submit" ><a>Colaboradores</a></button>
-
-                </div>
-            </nav>  
-        </div> -->
-        <div class="principal_container">
-            <div class="image_container">
-            </div>
-            <div class="mc_info">
-                <h1 class="titles"> MC Repuestos</h1>
-                <h4 class="text_info">Somos importadores directos de repuestos para una gran
-                    <br> variedad de marcas y modelos del mercado nacional
-                </h4>
-                <img src="./img/logo_mc.png" class="info_image">
-
-            </div>
-            <div class="mc_info">
-                <h1 class="titles"> La mejor garantia del mercado</h1>
-                <h4 class="text_info">Absolutamente todos nuestros productos tienen 1 mes de garantia a partir del dia
-                    de compra para mantener la tranquilidad y confianza de nuestros clientes </h4>
-                <img src="./img/logo_mc.png" class="info_image">
-            </div>
+ <body>
+    <div class="principal_container">
+        <div class="image_container"></div>
+        <div class="mc_info">
+            <h1 class="titles"> MC Repuestos</h1>
+            <h4 class="text_info">Somos importadores directos de repuestos para una gran
+                <br> variedad de marcas y modelos del mercado nacional
+            </h4>
+            <img src="./img/logo_mc.png" class="info_image">
 
         </div>
-        <!-- <div class="footer_container">
-            <footer class="bg-dark text-center text-lg-start text-white">
-                <div class="container p-4">
-                  <div class="row mt-4">
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">Nosotros</h5>
-            
-                      <ul class="list-unstyled mb-0">
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>✆ (506)25733757</a>
-                        </li>
-                        <br>
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2">✆ (506)25733758</i></a>
-                        </li>
-                        <br>
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-user-edit fa-fw fa-sm me-2"></i>✆ (506)71085375</a>
-                        </li>
-                      </ul>
-                    </div>
+        <div class="mc_info">
+            <h1 class="titles"> La mejor garantia del mercado</h1>
+            <h4 class="text_info">Absolutamente todos nuestros productos tienen 1 mes de garantia a partir del dia
+                de compra para mantener la tranquilidad y confianza de nuestros clientes </h4>
+            <img src="./img/logo_mc.png" class="info_image">
+        </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">marcas</h5>
-            
-                      <ul class="list-unstyled">
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Mitsubishi</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-backspace fa-fw fa-sm me-2"></i>Isuzu</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Suzuki</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Kia</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">Marcas</h5>
-            
-                      <ul class="list-unstyled">
-                        <li>
-                          <a href="#!" class="text-white">Toyota</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white">Mazda</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white">Hyundai</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white"><i ></i>Chevrolet</a>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">Marcas</h5>
-            
-                      <ul class="list-unstyled">
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Nissan</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Honda</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                  © 2024 MC Repuestos
-                </div>
-              </footer>
-        </div> -->
-        <?php require('layout/footer.php') ?>
     </div>
+    <?php require('layout/footer.php'); ?>
+  </div>
 </body>
-
 </html>

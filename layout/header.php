@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,16 +10,14 @@
     <title>Mc Repuestos</title>
 </head>
 
-<body>
 <div class="header_container">
-            <nav class="navbar bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand nav_option" href="./index.php">Logo</a>
-                    <a class="navbar-brand nav_option" href="#">Catalogo</a>
-                    <a class="navbar-brand " href="./nosotros.php">Nosotros</a>
-                    <button class="btn btn-outline-success btn-colaborator" type="submit" ><a>Colaboradores</a></button>
-
-                </div>
-            </nav>  
-        </div>
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand nav_option" href="./index.php">Logo</a>
+        <a class="navbar-brand nav_option" href="#">Catalogo</a>
+        <a class="navbar-brand " href="./nosotros.php">Nosotros</a>
+        <button class="btn btn-outline-success btn-colaborator" type="submit" ><a>Colaboradores</a></button>
+    </div>
+</nav>  
+</div>
 </div>
