@@ -1,0 +1,41 @@
+.main_login_container{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.login{
+    width:60px;
+    display:block;
+    margin-left: 0px;
+    margin-right: 50%;
+    
+}
+.logo{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.login_img{
+    width: 60px;
+    height: auto;
+}
+.logo_login{
+    width: 410px;
+    height: auto;
+}
+.principal_logo_container{
+    width: 410px;
+    height: auto;
+    margin-left: 20%;
+}
+
+.login_button{
+    margin-top: 30px;
+}
