@@ -19,5 +19,8 @@
     </div>
     <?php require('layout/footer.php'); ?>
   </div>
+    
+  <script src="./assets/js/index.js"></script>
+
 </body>
 </html>

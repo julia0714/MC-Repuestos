@@ -24,7 +24,7 @@
             Nosotros
         </a>
         
-        <button class="btn btn-outline-success btn-colaborator" type="submit" ><a>Colaboradores</a></button>
+        <button class="btn btn-outline-success btn-colaborator" type="submit" onClick="redirect()">Colaboradores</button>
 
     </div>
 </nav>  
