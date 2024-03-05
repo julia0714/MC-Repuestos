@@ -1,5 +1,4 @@
 <?php require './layout/header.php'; ?>
-
  <body>
     <div class="principal_container">
         <div class="image_container"></div>
@@ -17,9 +16,11 @@
                 de compra para mantener la tranquilidad y confianza de nuestros clientes </h4>
             <img src="./img/logo_mc.png" class="info_image">
         </div>
-
     </div>
     <?php require('layout/footer.php'); ?>
   </div>
+    
+  <script src="./assets/js/index.js"></script>
+
 </body>
 </html>

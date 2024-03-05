@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@100..900&display=swap');
+
+/* 
+    COLORES
+    LETRAS -> #E8E8E8
+    FONDOS -> #0A1015
+    SECUNDARIO -> #7F9290
+    PRIMARIO -> #505F60
+    EXTRA -> #1B4D5B
+*/
+
+:root {
+    --color--fondo: #0A1015;
+    --color--primario: #505F60;
+    --color--secundario: #7F9290;
+    --color--letras: #E8E8E8;
+    --color--extra: #1B4D5B;
+}
