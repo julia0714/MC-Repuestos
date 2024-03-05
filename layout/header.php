@@ -15,8 +15,8 @@
 <nav class="navbar">
     <div class="container-fluid">
 
-        <a class="navbar-brand nav_option" href="./index.php">
-            Logo
+       <a class="navbar-brand " href="./index.php">
+       <img src="./assets/img/logo_mc.png" class="logo_nav">
         </a>
         <a class="navbar-brand nav_option" href="#">
             Catalogo 
